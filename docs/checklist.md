@@ -3,7 +3,7 @@
 | Item | Requirement | File / class | Status |
 | --- | --- | --- | --- |
 | N1 | Frontend and backend | BACKEND-PROXY, FRONTEND-PROXY- repositories | Done |
-| N2 | Both deployed to PROD | Render, Vercel (URLs in `README.md`) | Pending |
+| N2 | Both deployed to PROD | Render, Vercel (URLs in `README.md`) | Done |
 | N3 | Simple code, one app, in-memory | `ProxyApplication`, `ConcurrentHashMap` in services, `LogRepository` | Done |
 | B1 | Generic interface | `proxy/MicroserviceProxy` | Done |
 | B2 | Real services with real operations | `service/InventoryService`, `OrderService`, `PaymentService` | Done |
@@ -23,8 +23,8 @@
 | F5 | Simulate load button | `App.jsx` (`handleSimulateLoad`) | Done |
 | F6 | Expandable log details | `components/LogsTable.jsx` (`LogDetails`) | Done |
 | F7 | Red card above 15% errors | `components/ServiceCard.jsx`, `.card-problem` in `App.css` | Done |
-| D1 | Backend on Render (changed from Railway at the user's request) | `render.yaml`, `Dockerfile` | Pending |
-| D2 | Frontend on Vercel | `vercel.json` (frontend repository) | Pending |
+| D1 | Backend on Render (changed from Railway at the user's request) | `render.yaml`, `Dockerfile` | Done |
+| D2 | Frontend on Vercel | `vercel.json` (frontend repository) | Done |
 | PDF 1 | Same structure, numbered comments | `MicroserviceProxy`, services, `LoggingProxy`, clients | Done |
 | PDF 2 | Mandatory lazy loading | `LoggingProxy.loadRealService`, service constructors, `ProxyConfig` | Done |
 | PDF 3 | Access control | `LoggingProxy.validateAccess` | Done |

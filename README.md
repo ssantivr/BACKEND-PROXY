@@ -2,8 +2,8 @@
 
 **Production URLs**
 
-- Frontend (Vercel): FRONTEND_URL_PENDING
-- Backend (Render): BACKEND_URL_PENDING
+- Frontend (Vercel): https://proxy-checkpoint.vercel.app
+- Backend (Render): https://proxy-monitor-backend-hjad.onrender.com
 
 ## Description
 
